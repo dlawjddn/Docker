@@ -1,0 +1,8 @@
+FROM node:14
+
+# 모두 복사하여 실행
+COPY ./ /
+
+RUN npm install
+
+CMD ["npm", "start"]
